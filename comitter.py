@@ -13,6 +13,7 @@ for i in num:
 	os.system('git add --all :/')
 	os.system('git commit -m "Adding a 1"')
 	os.system('git push')
+	os.system('git config --global push.default matching')
 EmptyFile.close()
 
 print "Done!"
