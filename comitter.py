@@ -2,7 +2,6 @@
 
 import os
 
-
 EmptyFile = open("counter", 'a')
 
 num = range(0,5)
