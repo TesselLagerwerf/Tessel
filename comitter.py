@@ -10,7 +10,7 @@ for i in num:
 	os.system('git commit -m "Adding a 1"')
 	os.system('git push')
 
-EmptyFile.close()
+"counter".close()
 
 print "Done!"
 
