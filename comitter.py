@@ -2,7 +2,7 @@
 
 import os
 
-num = range(0,190)
+num = range(0,100)
 
 for i in num:
 	open("counter", 'a').write("1")
