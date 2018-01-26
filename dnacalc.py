@@ -2,7 +2,7 @@
 
 
 DNASeq = 'ATGTCTCATTCAAAGCA'
-DNASeq = raw_input("Enter a DNA sequence: ")
+#DNASeq = raw_input("Enter a DNA sequence: ")
 DNASeq = DNASeq.upper()
 DNASeq = DNASeq.replace(" ","")
 print 'Sequence:', DNASeq
